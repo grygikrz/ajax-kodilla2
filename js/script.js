@@ -3,7 +3,9 @@ var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&fi
 var prefix = "https://cors-anywhere.herokuapp.com/";
 
 function getQuote() {
-    fetch(prefix + quoteUrl, { cache: "no-store" })
+    fetch(prefix + quoteUrl, { cache: "no-store", headers:{
+    'Origin': 'https://quotesondesign.com'
+  } })
         .then(function(resp) {
             return resp.json();
         })
