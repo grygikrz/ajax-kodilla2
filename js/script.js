@@ -37,7 +37,7 @@ function createTweet(input) {
 
 document.addEventListener('DOMContentLoaded', function() {
     getQuote();
-});
-document.querySelector('.trigger').addEventListener('click', function() {
-    getQuote();
+    document.querySelector('.trigger').addEventListener('click', function() {
+        getQuote();
+    });
 });
