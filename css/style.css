@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #848484;
+    font-weight: 600
+}
+
+body {
+    margin: 0;
+    background: url(https://www.spp.net.pl/wp-content/uploads/2016/04/4395996-road-wallpaper.jpg);
+}
+
+h1 {
+  color: #6c000073;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 33px;
+  font-weight: 400;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+h3 {
+    color: #b8b8b8;
+    font-size: 18px;
+}
+
+h4 {
+    color: #fff;
+    font-size: 16px
+}
+
+p {
+    color: #7c7c7c
+}
+
+a {
+    color: #00b005;
+    font-weight: 700;
+    text-decoration: none
+}
+
+hr {
+    display: block;
+    margin: 30px auto 30px auto;
+    background: #f1f1f1;
+    height: 1px;
+    border: 0
+}
+
+main {
+    text-align: center;
+}
+
+.box {
+    background-color: #380f0f14;
+    width: 50%;
+    margin: 0 auto;
+    font-style: italic;
+    color: #eee;
+}
