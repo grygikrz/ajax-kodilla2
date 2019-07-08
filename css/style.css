@@ -11,9 +11,10 @@ body {
 }
 
 h1 {
-  color: #6c000073;
+  color: #2c2c2c08;
   font-size: 27px;
   text-align: center;
+  text-shadow: 1px 1px 1px #000;
   margin-bottom: 33px;
   font-weight: 400;
 }
@@ -38,9 +39,10 @@ p {
 }
 
 a {
-    color: #00b005;
+    color: #ffffff;
     font-weight: 700;
-    text-decoration: none
+    padding: 10px;
+    text-decoration: none;
 }
 
 hr {
@@ -53,6 +55,7 @@ hr {
 
 main {
     text-align: center;
+    padding: 30px;
 }
 
 .box {
@@ -60,5 +63,9 @@ main {
     width: 50%;
     margin: 0 auto;
     font-style: italic;
+    color: #eee;
+}
+i.fab.fa-twitter {
+    margin-right: 5px;
     color: #eee;
 }
